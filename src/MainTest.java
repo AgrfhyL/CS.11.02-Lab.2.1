@@ -11,6 +11,7 @@ class MainTest {
         assertEquals(12, Main.add(5,7));
     }
 
+
     @org.junit.jupiter.api.Test
     void addTwo() {
         assertEquals(24, Main.add(5,7,6,6));
@@ -55,6 +56,5 @@ class MainTest {
     void roundNegativeValueToNearestIntegerTwo() {
         assertEquals(-9, Main.roundNegativeValueToNearestInteger(-8.5));
     }
-
 
 }
