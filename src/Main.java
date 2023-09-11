@@ -3,6 +3,28 @@ public class Main {
     public static void main(String[] args) {
         int sumOfTwo = add(1,3);
         System.out.println(sumOfTwo);
+
+        int sumOfFour = add(1,2,3,4);
+        System.out.println(sumOfFour);
+
+        String mGreet = morningGreeting("andy");
+        System.out.println(mGreet);
+
+        String aGreeting = afternoonGreeting("andy");
+        System.out.println(aGreeting);
+
+        String triple = triple("ha");
+
+        double half = half(6);
+        System.out.println(half);
+
+        int posRound = roundPositiveValueToNearestInteger(0.33);
+        System.out.println(posRound);
+
+        int negRound = roundNegativeValueToNearestInteger(-0.33);
+        System.out.println(negRound);
+
+
     }
 
     // 1. add
