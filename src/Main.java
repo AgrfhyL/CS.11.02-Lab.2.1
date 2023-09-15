@@ -4,7 +4,7 @@ public class Main {
         int sumOfTwo = add(1,3);
         System.out.println(sumOfTwo);
 
-        int sumOfFour = add(1,2,3,4);
+        int sumOfFour = add(1,1,1,1);
         System.out.println(sumOfFour);
 
         String mGreet = morningGreeting("andy");
@@ -33,7 +33,7 @@ public class Main {
     }
     // 2. add
     public static int add(int a, int b, int c, int d) {
-        return a + b + c + d;
+        return add(a, add(b, add(c, d)));
     }
     // 3. morningGreeting
     public static String morningGreeting(String name) {
